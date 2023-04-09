@@ -31,7 +31,7 @@ app.get("/",function(req,res){
 
 app.get("/calculate",function(req,res){
 
-    
+    ans= "";
     res.render("matrix",{
         n: n,
         m: m,
