@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+    height: 100vh;
+  }
+h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+.content{
+    margin-top: 100px;
+    width: 50%;
+    background-color: gray;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+  }
+.initial{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around; /* space items evenly along the main axis */
+  align-items:flex-start;
+  height: 50%;
+}
+.matrix{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around; /* space items evenly along the main axis */
+    align-items:flex-start;
+    height: 50%;
+  }
+.item{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+button.item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
