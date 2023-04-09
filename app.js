@@ -31,7 +31,7 @@ app.get("/",function(req,res){
 
 app.get("/calculate",function(req,res){
 
-    ans= "";
+  
     res.render("matrix",{
         n: n,
         m: m,
@@ -123,6 +123,7 @@ function find(){
     return ans;
 }
 app.post("/calculate",function(req,res){
+      ans= "";
     if(req.body.button == "refresh"){
         res.redirect("/");
     }
